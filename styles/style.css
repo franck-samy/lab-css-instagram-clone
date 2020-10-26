@@ -4,7 +4,90 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100vh;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #1c5380;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+.phones{
+  width: 30%;
+  margin: 50px;
+}
+
+.login{
+  width: 100%;
+  margin: 50px;
+}
+
+.login-btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-content{
+  background-color: white;
+  padding: 45px;
+  border-radius: 5px;
+}
+
+.login img{
+  width: 50%;
+  
+}
+
+h2{
+  color: #06365f;
+  margin-bottom:30px;
+}
+
+.app-btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.app-btn img{
+  margin: 5px;
+}
+
+
+footer{
+  display: flex;
+  align-items: center;
+}
+
+ul{
+  display: flex;
+  width: 800px;
+}
+
+li{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin : 5px auto;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
 }
